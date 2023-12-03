@@ -15,24 +15,37 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"Landscape",
-			"scale":[
-				100,
-				100,
-				100
-			]
+			"name":"Cylinder"
+		}
+	],
+	"materials":[
+		{
+			"doubleSided":true,
+			"name":"Material",
+			"pbrMetallicRoughness":{
+				"baseColorFactor":[
+					0.8001105785369873,
+					0,
+					0.03279019519686699,
+					1
+				],
+				"metallicFactor":0,
+				"roughnessFactor":0.5
+			}
 		}
 	],
 	"meshes":[
 		{
-			"name":"Landscape",
+			"name":"Cylinder",
 			"primitives":[
 				{
 					"attributes":{
 						"POSITION":0,
-						"NORMAL":1
+						"NORMAL":1,
+						"TEXCOORD_0":2
 					},
-					"indices":2
+					"indices":3,
+					"material":0
 				}
 			]
 		}
@@ -41,15 +54,15 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":16384,
+			"count":2944,
 			"max":[
 				1,
-				0.2987356185913086,
+				3,
 				1
 			],
 			"min":[
 				-1,
-				0,
+				-1,
 				-1
 			],
 			"type":"VEC3"
@@ -57,40 +70,52 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":16384,
+			"count":2944,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
+			"componentType":5126,
+			"count":2944,
+			"type":"VEC2"
+		},
+		{
+			"bufferView":3,
 			"componentType":5123,
-			"count":96774,
+			"count":4596,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":196608,
+			"byteLength":35328,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":196608,
-			"byteOffset":196608,
+			"byteLength":35328,
+			"byteOffset":35328,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":193548,
-			"byteOffset":393216,
+			"byteLength":23552,
+			"byteOffset":70656,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":9192,
+			"byteOffset":94208,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":586764,
-			"uri":"landscape.bin"
+			"byteLength":103400,
+			"uri":"Player.bin"
 		}
 	]
 }
