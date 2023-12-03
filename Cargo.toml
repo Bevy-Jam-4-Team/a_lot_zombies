@@ -17,3 +17,4 @@ bevy_render = "0.12.1"
 png = "0.17.10"
 ktx2 = "0.3.0"
 bevy_gltf_blueprints = "0.3.3"
+

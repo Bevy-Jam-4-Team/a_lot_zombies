@@ -1,5 +1,4 @@
 use bevy::prelude::*;
-pub mod components;
 mod systems;
 use systems::*;
 
@@ -12,10 +11,11 @@ impl Plugin for SetupPlugin {
             .add_systems(Startup, (
                 setup_camera,
                 spawn_floor,
-            ))
-            .add_systems(Update, (
-                animate_light_direction,
-                move_camera,
-            ));
+                setup_lights,
+            ));  
     }
 }
+
+
+#[derive(Component)]
+pub struct MyGroundPlane;

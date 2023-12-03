@@ -15,7 +15,7 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"Cylinder"
+			"name":"Cube"
 		}
 	],
 	"materials":[
@@ -24,9 +24,9 @@
 			"name":"Material",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
-					0.8001105785369873,
+					0.8000937700271606,
 					0,
-					0.03279019519686699,
+					0.009638724848628044,
 					1
 				],
 				"metallicFactor":0,
@@ -36,7 +36,7 @@
 	],
 	"meshes":[
 		{
-			"name":"Cylinder",
+			"name":"Cube",
 			"primitives":[
 				{
 					"attributes":{
@@ -54,10 +54,10 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":2944,
+			"count":84,
 			"max":[
 				1,
-				3,
+				2,
 				1
 			],
 			"min":[
@@ -70,52 +70,52 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":2944,
+			"count":84,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":2944,
+			"count":84,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5123,
-			"count":4596,
+			"count":204,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":35328,
+			"byteLength":1008,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":35328,
-			"byteOffset":35328,
+			"byteLength":1008,
+			"byteOffset":1008,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":23552,
-			"byteOffset":70656,
+			"byteLength":672,
+			"byteOffset":2016,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":9192,
-			"byteOffset":94208,
+			"byteLength":408,
+			"byteOffset":2688,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":103400,
-			"uri":"Player.bin"
+			"byteLength":3096,
+			"uri":"player.bin"
 		}
 	]
 }
